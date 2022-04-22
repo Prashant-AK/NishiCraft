@@ -1,0 +1,34 @@
+.headerbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex: 1;
+  background-color: #feece2;
+  justify-content: flex-end;
+}
+.headerbar_container {
+  display: flex;
+  margin-right: 1%;
+}
+.headerbar_iconscontainer {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+.headerbar_icons {
+  color: black;
+  padding-left: 10px;
+}
+
+.headerbar_mbno {
+  /* display: flex;
+  align-items: center; */
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.headerbar_mbno > p {
+  color: black;
+  font-size: 15px;
+  font-weight: 20px;
+}

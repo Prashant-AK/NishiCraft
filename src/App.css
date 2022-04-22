@@ -1,0 +1,18 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+@media (max-width: 768px) {
+  h1 {
+    text-shadow: 1px 1px #0f1218;
+    font-size: 25px !important;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #354052;
+  }
+}

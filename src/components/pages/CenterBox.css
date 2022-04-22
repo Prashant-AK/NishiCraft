@@ -1,0 +1,19 @@
+.centerbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  /* height: 80%; */
+  /* border: 2px solid tomato; */
+}
+
+.text p {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 20px;
+}
+
+.centerbox > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+}

@@ -1,0 +1,12 @@
+.checkoutbtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f4e2d8;
+  border: 1px solid #d6c4ba;
+}
+
+.checkoutbtn:hover {
+  background-color: #feece2;
+  border: 1px solid black;
+  font-weight: bolder;
+}

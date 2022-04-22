@@ -1,0 +1,12 @@
+.hand {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 18px;
+  }
+}

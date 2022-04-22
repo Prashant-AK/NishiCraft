@@ -1,0 +1,124 @@
+.footer {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  z-index: initial;
+  background-color: #f4e2d8;
+}
+
+.footer_container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid tomato; */
+}
+
+.footer_sec1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.footer_sec2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.footer_sec3 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.footer_sec_content {
+  padding: 5px;
+}
+.footer_sec_content > strong {
+  font-size: 20px;
+  color: black;
+}
+.footer_sec_content :hover {
+  background-color: #d6c4ba;
+  border-radius: 20px;
+  padding: 12px;
+}
+.footer_sec_content > strong:hover {
+  color: white;
+}
+.footer_sec3_subhead > p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.footer_sec_input {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+}
+
+.footer_searchInput {
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  height: 8px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.footer_searchIcon {
+  /* padding: 5px; */
+  /* width: auto; */
+  /* height: 30px !important; */
+  /* background-color: white; */
+  /* color: white; */
+}
+
+.footer_sec_icon_container {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.footer_sec_icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+.footer_sec_icon :hover {
+  color: white;
+  background-color: #d6c4ba;
+}
+
+@media (max-width: 480px) {
+  .footer_container {
+    /* border: 2px solid blue; */
+    text-align: center;
+    display: block;
+  }
+  .footer_sec_head > h2 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .footer_sec_content > strong {
+    font-size: 15px;
+    color: black;
+  }
+  .footer_sec3_subhead > p {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .footer_sec_icon_container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer_sec_input {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+  }
+}
